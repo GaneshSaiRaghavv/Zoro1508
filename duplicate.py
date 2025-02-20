@@ -2,7 +2,7 @@ import time
 import os
 import shutil
 from hashlib import sha256
-
+'''just a random comment to test'''
 class Duplython:
     def __init__(self):
         self.home_dir = os.getcwd(); self.File_hashes = []
