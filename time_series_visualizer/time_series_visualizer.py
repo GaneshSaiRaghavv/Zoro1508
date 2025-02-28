@@ -52,7 +52,7 @@ def draw_bar_plot():
 
 def draw_box_plot():
     # Prepare data for box plots (this part is done!)
-   def draw_box_plot():
+    def draw_box_plot():
     # Prepare data for box plots
     df_box = df.copy()
     df_box.reset_index(inplace=True)
@@ -74,7 +74,7 @@ def draw_box_plot():
 
     # Month-wise Box Plot
     month_order = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                   "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
     sns.boxplot(x="month", y="value", data=df_box, ax=axes[1], order=month_order)
     axes[1].set_title("Month-wise Box Plot (Seasonality)")
     axes[1].set_xlabel("Month")
